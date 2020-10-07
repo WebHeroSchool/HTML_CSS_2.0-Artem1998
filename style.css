@@ -15,6 +15,7 @@ body {
 }
 .logo {
   position: relative;
+  margin: 0 0 0 9px;
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/32px pt_serif, arial, helvetica, sans-serif;
@@ -40,6 +41,7 @@ border-radius: 50%;
 }
 .menu {
   display: flex;
+  margin: 1px 7px -5px 0px;
   align-items: center;
 }
 .menu__item {
@@ -99,22 +101,23 @@ border-radius: 50%;
   background: top right no-repeat url(img/mainImg.svg);
 }
 .main__title {
-  margin: 0 0 40px 0;
+  margin: -2px -20px 40px 10px;
   margin-bottom: 40px;
-  font: 50px/65px pt_serif,arial,helvetica,sans-serif;
+  font: bold 50px/66px pt_serif,arial,helvetica,sans-serif;
 }
 .main__title-text_highlight {
   background: #ecf3ff;
-  font: 50px/65px pt_serif,arial,helvetica,sans-serif;
+  font: bold 50px/66px pt_serif,arial,helvetica,sans-serif;
 }
 .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 0 0 41px 2px;
   margin-top: 30px;
   margin-bottom: 41px;
   font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
 }
 .main__button {
   display: inline-block;
+  margin: 0 0 0 13px;
   font: 500 14px/16px Roboto,arial,helvetica,sans-serif;
   color: #fff;
   background: #0056ec;
