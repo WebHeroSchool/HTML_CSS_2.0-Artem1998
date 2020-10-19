@@ -32,7 +32,7 @@ body {
 
 @media (max-width: 1366px) {
   .logo {
-    margin: 0px 0 0 179px;
+    margin: 0 0 0 179px;
   }
 }
 
@@ -117,10 +117,12 @@ body {
     height: 2px;
     background-color: #0056ec;
   }
+
   .menu__btn > span::before {
     content: '';
     top: -8px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 8px;
@@ -130,7 +132,6 @@ body {
     display: none;
     position: fixed;
   }
-
 }
 
 .menu__item {
@@ -240,7 +241,7 @@ body {
   }
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
   .main__title {
     margin: 0 0 0 -62px;
     left: 70px;
@@ -251,7 +252,7 @@ body {
 @media (max-width: 768px) {
   .main__title {
     margin: 24px 35px 32px -92px;
-    font: 700 30px/40px PTSerif,arial,helvetica,sans-serif;
+    font: 700 30px/40px PTSerif, arial, helvetica, sans-serif;
   }
 }
 
@@ -287,7 +288,7 @@ body {
   .main__subtitle {
     margin: -54px 13px 27px 22px;
     left: 2px;
-    font: 500 16px/19px Roboto,arial,helvetica,sans-serif;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 }
 
@@ -325,7 +326,7 @@ body {
 @media (max-width: 768px) {
   .main__button {
     margin: -6px 1px 0 0;
-    font: 500 14px/16px Roboto,arial,helvetica,sans-serif;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
 
