@@ -44,7 +44,7 @@ body {
 
 @media (max-width: 768px) {
   .logo {
-    margin: -18px 0 0 -16px;
+    margin: -2px 0 0 -16px;
   }
 }
 
@@ -72,30 +72,34 @@ body {
 
 .menu {
   display: flex;
-  margin: 1px 7px -5px 0;
+  margin: 47px 8px -5px 0;
   align-items: center;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 #menu__toggle {
-  opacity: 0;
+  display: none;
 }
 
 @media (max-width: 1366px) {
   .menu {
-    margin: 32px 176px 0 0;
+    margin: 51px 182px 0 0;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
 
 @media (max-width: 1024px) {
   .menu {
-    margin: 31px 9px 0 0;
+    margin: 51px 7px 0 0;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
 
 @media (max-width: 768px) {
+  .logo__text {
+    display: none;
+  }
+
   .menu__btn {
     display: flex;
     align-items: center;
@@ -192,17 +196,17 @@ body {
 
 .main {
   position: relative;
-  height: 1920px;
   top: 32px;
   display: block;
   align-items: center;
   padding-right: 63%;
+  padding-bottom: 200px;
   background: top right no-repeat url(img/mainimg.svg);
 }
 
 @media (max-width: 1366px) {
   .main {
-    margin: 50px 169px 0 12px;
+    margin: 50px 178px 0 12px;
     background-size: 47%;
   }
 }
@@ -217,7 +221,7 @@ body {
 @media (max-width: 768px) {
   .main {
     text-align: center;
-    margin: -38px 8px 0 0;
+    margin: -23px 8px 0 0;
     padding: 74% 0 0;
     background-size: 97%;
   }
