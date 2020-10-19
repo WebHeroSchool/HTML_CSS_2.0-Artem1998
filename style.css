@@ -16,12 +16,36 @@ body {
   margin-bottom: 100px;
 }
 
+@media (max-width: 1366px) {
+  .header {
+    margin: 0 0 0 0;
+  }
+}
+
 .logo {
   position: relative;
-  margin: 0 0 0 5px;
+  margin: 0 0 0 1px;
   padding: 40px 0;
   padding-left: 44px;
   font: 700 24px/32px PTSerif, arial, helvetica, sans-serif;
+}
+
+@media (max-width: 1366px) {
+  .logo {
+    margin: 0px 0 0 179px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    margin: -1px 0 0 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin: -18px 0 0 -16px;
+  }
 }
 
 .logo__circle {
@@ -51,6 +75,62 @@ body {
   margin: 1px 7px -5px 0;
   align-items: center;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+@media (max-width: 1366px) {
+  .menu {
+    margin: 32px 176px 0 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    margin: 31px 9px 0 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 27px;
+    right: 24px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #0056ec;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  .menu {
+    display: none;
+    position: fixed;
+  }
+
 }
 
 .menu__item {
@@ -119,6 +199,29 @@ body {
   background: top right no-repeat url(img/mainimg.svg);
 }
 
+@media (max-width: 1366px) {
+  .main {
+    margin: 50px 169px 0 12px;
+    background-size: 47%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    margin: 51px 5px 0 0;
+    background-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    text-align: center;
+    margin: -38px 8px 0 0;
+    padding: 74% 0 0;
+    background-size: 97%;
+  }
+}
+
 .main__title {
   position: relative;
   top: 73px;
@@ -126,6 +229,30 @@ body {
   margin: -2px -20px 40px 10px;
   margin-bottom: 40px;
   font: 700 66px/87px PTSerif, arial, helvetica, sans-serif;
+}
+
+@media (max-width: 1366px) {
+  .main__title {
+    margin: 0 0 0 -108px;
+    top: 16px;
+    left: 275px;
+    font: 700 50px/66px PTSerif, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width : 1024px) {
+  .main__title {
+    margin: 0 0 0 -62px;
+    left: 70px;
+    font: 700 50px/66px PTSerif, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__title {
+    margin: 24px 35px 32px -92px;
+    font: 700 30px/40px PTSerif,arial,helvetica,sans-serif;
+  }
 }
 
 .main__title-text_highlight {
@@ -136,10 +263,32 @@ body {
   position: relative;
   top: 70px;
   left: -10px;
-  margin: 0 90px 41px 8px;
-  margin-top: 30px;
-  margin-bottom: 41px;
+  margin: 30px 90px 41px 8px;
   font: 500 22px/26px Roboto, arial, helvetica, sans-serif;
+}
+
+@media (max-width: 1366px) {
+  .main__subtitle {
+    margin: -14px 0 17px -70px;
+    left: 238px;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main__subtitle {
+    margin: -15px 186px 17px -230px;
+    left: 238px;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__subtitle {
+    margin: -54px 13px 27px 22px;
+    left: 2px;
+    font: 500 16px/19px Roboto,arial,helvetica,sans-serif;
+  }
 }
 
 .main__button {
@@ -155,6 +304,29 @@ body {
   text-decoration: none;
   border-radius: 4px;
   transition: .5s;
+}
+
+@media (max-width: 1366px) {
+  .main__button {
+    margin: 18px 0 0 0;
+    left: 164px;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main__button {
+    margin: 20px 0 0 2px;
+    left: 1px;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__button {
+    margin: -6px 1px 0 0;
+    font: 500 14px/16px Roboto,arial,helvetica,sans-serif;
+  }
 }
 
 .main__button:hover {
