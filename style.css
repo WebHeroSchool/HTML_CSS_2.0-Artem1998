@@ -152,6 +152,7 @@ body {
 
   .menu__item {
     display: block;
+    margin: 0 0 0 0;
     padding: 12px 24px;
     color: #333;
     font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
@@ -159,9 +160,32 @@ body {
     transition-duration: .25s;
   }
 
-  .menu__item_active::after {
-    display: none;
-  } 
+  .menu__item_s {
+    left: 12px;
+    bottom: 3px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .menu__item_a {
+    padding-right: 0;
+  }
+
+  .menu__item_b {
+    padding-right: 0;
+  }
+
+  .menu__item_c {
+    top: 2px;
+    right: 3px;
+  }
+
+  .menu__item_active {
+    display: inline-block;
+    left: 12px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
